@@ -2,3 +2,4 @@
 # for Pixhawk4 bootloader
 
 include ../fmuv5/hwdef-bl.dat
+define AP_OPENDRONEID_ENABLED 1
