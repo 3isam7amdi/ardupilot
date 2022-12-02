@@ -18,6 +18,9 @@ APJ_BOARD_ID 56
 # bootloader is installed at zero offset
 FLASH_RESERVE_START_KB 0
 
+# enable opendroneid
+define AP_OPENDRONEID_ENABLED 1
+
 # the location where the bootloader will put the firmware
 FLASH_BOOTLOADER_LOAD_KB 128
 

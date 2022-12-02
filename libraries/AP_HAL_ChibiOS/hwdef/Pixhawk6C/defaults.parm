@@ -3,3 +3,13 @@ BATT_MONITOR 4
 
 BATT2_CURR_PIN 14
 BATT2_VOLT_PIN 5
+
+# enforce OpenDroneID on DroneCAN. Note that we need to lock down key parameters
+# to ensure the integrity of the RemoteID system
+DID_ENABLE 1 @READONLY
+DID_OPTIONS 1 @READONLY
+DID_MAVPORT 1 @READONLY
+DID_CANDRIVER 1 @READONLY
+AHRS_EKF_TYPE 3 @READONLY
+GPS_TYPE 1
+GPS_TYPE2 0
